@@ -1,0 +1,30 @@
+<package>
+  <name>camera_calibration</name>
+  <version>1.12.23</version>
+  <description>
+     camera_calibration allows easy calibration of monocular or stereo
+     cameras using a checkerboard calibration target.
+  </description>
+  <author>James Bowman</author>
+  <author>Patrick Mihelich</author>
+  <maintainer email="vincent.rabaud@gmail.com">Vincent Rabaud</maintainer>
+
+  <exec_depend>example_interfaces</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+  <exec_depend>image_geometry</exec_depend>
+  <exec_depend>message_filters</exec_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_srvs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+  <license>BSD</license>
+  <url>http://www.ros.org/wiki/camera_calibration</url>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
